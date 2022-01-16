@@ -1,0 +1,64 @@
+.mynav{
+    background-color: #c1e7ff;
+}
+.nav-item a{
+    color: grey;
+}
+#intro{
+    height:300px;
+}
+.card-1{
+    width: 40%;
+}
+.card-body{
+    box-sizing: border-box;
+    border: 01px solid rgba(0, 0, 0, 0.26);
+}
+#mentors{
+    height: 900px;
+   
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+
+.main-row{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin:60px;
+    align-items: center;
+    text-align: justify;
+    padding: 50px; 
+}
+.box p{
+ 
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+.box img{ 
+    width:300px;
+    height:280px;
+}
+
+
+#participants table tr td{
+    border: 1px solid rgb(196, 188, 188);
+    width:65%;
+    padding:10px 300px 10px 10px;
+}
+#foot img{
+    height: 70px;  
+}
+#foot footer{
+    background-color:#c1e7ff;
+}
